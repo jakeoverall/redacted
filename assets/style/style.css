@@ -1,0 +1,47 @@
+/* BASIC STYLES HERE */
+nav {
+  height: 60px;
+}
+
+.report-container {
+  height: calc(100vh - 60px);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: #fff;
+}
+
+.report-container button {
+  color: #fff;
+}
+
+textarea {
+  height: 100%;
+  width: 100%;
+  border-radius: 0 !important;
+  resize: none !important;
+  border: none !important;
+  padding: 2rem;
+}
+
+textarea:focus,
+textarea:active {
+  outline: none !important;
+}
+
+
+.Super-Top-Secret {
+  background-color: #2b35a1;
+}
+
+.Top-Secret {
+  background-color: #ce2111;
+}
+
+.Secret {
+  background-color: #5a850e;
+}
+
+.None {
+  background-color: #000000;
+}
